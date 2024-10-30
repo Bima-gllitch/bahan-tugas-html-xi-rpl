@@ -3,44 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Buat Akun Baru</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <form action="">
-        <h1>Buat account baru</h1> 
-        <h3>Sign up form</h3>
-        <p>first name : </p>
-        <label for="First name"></label>
-        <input type="text " id="first name">
-        <p>Last name : </p>
-        <label for="Last name"></label>
-        <input type="text " id="Last name">
-        <p>Gender</p>
-        <input type="radio" id="Laki-Laki]" name="Gender">
-        <label for="Laki-Laki">Laki-Laki</label><br>
-        <input type="radio" id="Perempuan" name="Gender">
-        <label for="Perempuan">Perempuan</label>
-        <p>Nationality</p>
-        <select name="Nationality" id="Nationality">
-            <option value="Indonesia">Indonesia</option>
-            <option value="inggris">inggris</option>
-        </select>
-        <p>Language Spoken</p>
+    <div class="container">
+        <form action="file:///C:/Users/PC%207/OneDrive/Dokumen/Desktop/bima11/bahan-tugas-html-xi-rpl/welcome.html" method="GET">
+            <h1>Buat Akun Baru</h1>
+            <h3>Sign Up Form</h3>
 
-        <input type="checkbox" id="Bahasa Indonesia" name="Bahasa">
-         <label for="Bahasa Indonesia">Bahasa Indonesia</label><br>
-         <input type="checkbox" id="english" name="Bahasa">
-         <label for="Bahasa english">english</label><br>
-         <input type="checkbox" id="other" name="Bahasa">
-         <label for="other">other</label>
-           <p>Bio</p>
-           <textarea name="Bio"clos="13" 
-           rows="10"></textarea><br>
-           <p>
-               <a href="file:///C:/Users/PC%207/OneDrive/Dokumen/Desktop/bima11/bahan-tugas-html-xi-rpl/welcome.html">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" required>
 
-                   <input type="button" name="sign 
-                   up" id="sign Up" value="sign up">
-                </a>
-            </p>
-    </form>
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" required>
+
+            <p>Gender:</p>
+            <input type="radio" id="Laki-Laki" name="gender" value="Laki-Laki" required>
+            <label for="Laki-Laki">Laki-Laki</label><br>
+            <input type="radio" id="Perempuan" name="gender" value="Perempuan">
+            <label for="Perempuan">Perempuan</label>
+
+            <label for="nationality">Nationality:</label>
+            <select name="nationality" id="nationality" required>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Inggris">Inggris</option>
+            </select>
+
+            <p>Language Spoken:</p>
+            <input type="checkbox" id="bahasa-indonesia" name="bahasa">
+            <label for="bahasa-indonesia">Bahasa Indonesia</label><br>
+            <input type="checkbox" id="english" name="bahasa">
+            <label for="english">English</label><br>
+            <input type="checkbox" id="other" name="bahasa">
+            <label for="other">Other</label>
+
+            <label for="bio">Bio:</label>
+            <textarea name="bio" id="bio" rows="5" required></textarea><br>
+
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+</body>
+</html>

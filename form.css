@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffeaa7; /* Warna latar belakang cerah */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff; /* Latar belakang putih */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Lebar kontainer */
+}
+
+h1, h3 {
+    color: #d35400; /* Warna judul cerah */
+    text-align: center;
+}
+
+label {
+    margin-top: 15px;
+    display: block;
+    color: #2c3e50; /* Warna teks label */
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #d35400; /* Warna tombol */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #e67e22; /* Warna tombol saat hover */
+}
